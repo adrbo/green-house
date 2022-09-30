@@ -168,11 +168,10 @@ footer {
   color: #797474;
 }
 
-.btn-main {
+.btn-intro__btn-main {
   background-color: rgba(0, 0, 255, 50%);
   border: 2px solid #fff;
   color: #fff;
-
   height: 83px;
   display: inline-block;
   padding: 24px calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
@@ -1242,10 +1241,20 @@ footer {
   .intro__btn {
     flex-wrap: wrap;
   }
-  .btn-intro__btn-fill,
-  .btn-intro__btn-blank {
+  .btn-intro__btn-fill {
     margin: 0 auto 20px;
     min-width: 70%;
+  }
+
+  .btn-intro__btn-blank    {
+    margin: 0 auto 20px;
+    min-width: 70%;
+  }
+
+  .btn-intro__btn-main {
+    margin: 0 auto 20px;
+    min-width: 70%;
+
   }
   .about__column {
     flex-direction: column;
@@ -1338,6 +1347,10 @@ footer {
   .contact-footer__item {
     font-size: 18px;
   }
+
+  .btn-intro__btn-main {
+    min-width: 70%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -1346,5 +1359,9 @@ footer {
   }
   .form-popup__btn-fill {
     width: 80%;
+  }
+
+  .btn-intro__btn-main {
+    min-width: 100%;
   }
 }
