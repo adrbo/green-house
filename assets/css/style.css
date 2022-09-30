@@ -183,7 +183,7 @@ footer {
   transition: all 0.3s ease 0s;
 }
 
-.btn-main:hover {
+.btn-intro__btn-main:hover {
   transform: translateY(-10px);
   border: 2px solid transparent;
 }
